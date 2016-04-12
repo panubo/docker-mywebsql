@@ -1,9 +1,9 @@
-# MywebSQL image
+# MyWebSQL image
 
 [![Docker Repository on Quay.io](https://quay.io/repository/panubo/MywebSQL/status "Docker Repository on Quay.io")](https://quay.io/repository/panubo/mywebsql)
 [![Build Status](https://travis-ci.org/panubo/docker-mywebsql.svg?branch=master)](https://travis-ci.org/panubo/docker-mywebsql)
 
-A [MywebSQL](http://mywebsql.net/) Docker image.
+A [MyWebSQL](http://mywebsql.net/) Docker image.
 
 ## Example usage
 
