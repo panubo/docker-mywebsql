@@ -6,7 +6,7 @@ set -e
 
 # Copy default config from cache
 if [ ! "$(ls -A /var/www/html/mywebsql/config)" ]; then
-   cp -a /var/www/html/mywebsql/config.cache/ /var/www/html/mywebsql/config/
+   cp -a /var/www/html/mywebsql/config.cache/. /var/www/html/mywebsql/config/
 fi
 
 echo "Running $@"
