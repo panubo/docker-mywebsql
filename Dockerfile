@@ -5,7 +5,7 @@ ENV httpd_root=mywebsql \
     MYWEBSQL_VERSION=3.6
 
 RUN cd /tmp && \
-    yum -y install php-bcmath unzip && \
+    yum -y install php-bcmath php-pgsql unzip && \
     curl -L https://sourceforge.net/projects/mywebsql/files/stable/mywebsql-${MYWEBSQL_VERSION}.zip/download -o mywebsql.zip && \
     echo "$MYWEBSQL_SHA1 mywebsql.zip" | sha1sum -c - && \
     unzip mywebsql.zip -d /var/www/html/ && \
