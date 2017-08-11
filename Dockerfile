@@ -1,8 +1,8 @@
 FROM quay.io/panubo/php-apache:latest
 
 ENV httpd_root=mywebsql \
-    MYWEBSQL_SHA1=2d2adb274afefcc867bc5b778a13f95a95205ce7 \
-    MYWEBSQL_VERSION=3.6
+    MYWEBSQL_SHA1=d361fbc14b982f0b8986b4fc355d2698ea632cb4 \
+    MYWEBSQL_VERSION=3.7
 
 RUN cd /tmp && \
     yum -y install php-bcmath php-pgsql unzip && \
