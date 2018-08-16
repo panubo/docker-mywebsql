@@ -9,7 +9,7 @@ A [MyWebSQL](http://mywebsql.net/) Docker image.
 The config dir will be automatically populated if empty:
 
 ```
-docker run -d --link postgres -v /mnt/data/mysqlsql:/var/www/mysqlsql/config panubo/mysqlsql
+docker run -d --link postgres -v /mnt/data/mysqlsql:/var/www/mysqlsql/config docker.io/panubo/mysqlsql:latest
 ```
 
 ## Status

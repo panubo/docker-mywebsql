@@ -1,4 +1,4 @@
-FROM quay.io/panubo/php-apache:latest
+FROM docker.io/panubo/php-apache:centos7
 
 ENV httpd_root=mywebsql \
     MYWEBSQL_SHA1=d361fbc14b982f0b8986b4fc355d2698ea632cb4 \
