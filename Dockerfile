@@ -16,4 +16,4 @@ RUN cd /tmp && \
 
 ADD entry.sh /
 ENTRYPOINT ["/entry.sh", "/usr/local/bin/voltgrid.py"]
-CMD ["/usr/bin/s6-svscan","/etc/s6"]
+CMD ["s6-svscan", "/etc/s6"]
