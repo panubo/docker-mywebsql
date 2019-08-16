@@ -1,3 +1,9 @@
+# Deprecation Notice!
+
+NB: This project is no longer maintained and the repository has been archived.
+
+---
+
 # MyWebSQL image
 
 [![Build Status](https://travis-ci.org/panubo/docker-mywebsql.svg?branch=master)](https://travis-ci.org/panubo/docker-mywebsql)
